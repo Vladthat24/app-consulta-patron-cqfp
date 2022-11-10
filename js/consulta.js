@@ -42,7 +42,8 @@ $(document).ready(function () {
                     var apellidos = data["ap_paterno"] + " " + data["ap_materno"];
                     $("#apellidos").val(apellidos);
                     $("#nombres").val(data["nombres"]);
-                    $("#situacion").val(data["sector_prof"]);
+                    $("#cqfd").val(data["cqfd"]);
+                    $("#situacion").val(data["habilidad"]);
                     $("#email").val(data["email"]);
                     $("#modalConsulta").modal("show");
                 }
