@@ -105,6 +105,12 @@
             </div>
           </div>
           <div class="form-group row">
+            <label for="colFormLabelSm" class="col-sm-4 col-form-label col-form-label-sm">Sector Profesional:</label>
+            <div class="col-sm-7">
+              <input type="text" class="form-control form-control-sm" id="sector_prof" disabled>
+            </div>
+          </div>
+          <div class="form-group row">
             <label for="colFormLabelSm" class="col-sm-4 col-form-label col-form-label-sm">Situación</label>
             <div class="col-sm-7">
               <input type="text" class="form-control form-control-sm" id="situacion" disabled>

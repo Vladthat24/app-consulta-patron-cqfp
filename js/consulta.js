@@ -43,6 +43,7 @@ $(document).ready(function () {
                     $("#apellidos").val(apellidos);
                     $("#nombres").val(data["nombres"]);
                     $("#cqfd").val(data["cqfd"]);
+                    $("#sector_prof").val(data["sector_prof"]);
                     $("#situacion").val(data["habilidad"]);
                     $("#email").val(data["email"]);
                     $("#modalConsulta").modal("show");
